@@ -2,3 +2,19 @@
     margin: 50px;
     padding: 100px;
 }
+
+*{
+background-color: #ffefe4;
+}
+
+body{
+background-color: #ffefe4;
+}
+
+h1{
+font: italic 3.5em "Fira Sans", serif;
+text-shadow: 0 0 0.2em #F87; 0 0 0.2em #F87";
+}
+
+button{
+font : bold;}

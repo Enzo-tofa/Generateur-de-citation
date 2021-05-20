@@ -13,30 +13,34 @@
 
 
     <div class="container">
-            <div class="row justify-content-md-center">
-              <div id="titre" class="d-flex justify-content-center">
-                <h2>Générateur de citation aléatoire</h2>
+            <div class="row">
+              <div id="titre" class="d-flex justify-content-center" >
+                <h1>Générateur de citation aléatoire</h1>
               </div>
             </div>
-        <div class="row-adjust-center" style="margin :5px">
 
-            <div class="d-flex justify-content-center"><input type="button" value="Générer une citation philosphique" onclick="genererCitation(1);"></div>
+        <div class="d-grid gap-2" style="margin :5px">
 
-        </div>
-        <div class="row-adjust-center"  style="margin :5px">
-            
-            <div class="d-flex justify-content-center"><input type="button" value="Générer une citation situationelle" onclick="genererCitation(2);"></div></div>
+            <div class="d-flex justify-content-center">
+		<button type="button" class="btn btn-outline-secondary" onclick="generercitation(1);" style="font:italic 2em;">Générer une citation philosphique</button>
 
         </div>
+	</div>
+        <div class="d-grid gap-2" style="margin :5px">
 
+            	<div class="d-flex justify-content-center">
+			<button type="button" class="btn btn-outline-secondary" onclick="generercitation(2);">Générer une citation situationelle</button>
+		</div>
+
+        </div>       
+	</div>
         <div class="row-adjust-center"  style="margin :5px">
-            <div class="d-flex justify-content-center"><input type="button" value="Générer plusieurs citations philosophiques ou situationelles" onclick="main();"></div></input></div>
+            <div class="d-flex justify-content-center">
+			<button type="button" class="btn btn-outline-secondary" onclick="main();">Générer plusieurs citations philosophiques ou situationelles</button>
+		</div>
         </div>    
 
-    </div>
-
-
-    
+    </div>   
 
 
     <script src="script.js"></script>
