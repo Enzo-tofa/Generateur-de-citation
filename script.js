@@ -20,7 +20,7 @@ function generercitation(nombre) {
   randomFin = motsFin[Math.floor(Math.random() * motsFin.length)];
   const resultat = randomDebut + randomMilieu + randomFin;
   console.log("résultat : " + resultat);
-  prompt(resultat)
+  alert(resultat)
 }
 
 
